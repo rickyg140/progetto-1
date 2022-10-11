@@ -12,7 +12,7 @@ public class MvcConfig implements WebMvcConfigurer {
 		registry.addViewController("/").setViewName("home");
 		registry.addViewController("/hello").setViewName("hello");
 		registry.addViewController("/login").setViewName("login");
-		registry.addViewController("/paths").setViewName("paths");
+		registry.addViewController("/path/develop").setViewName("path/develop");
 	}
 	/** QUI IMPLEMENTARE ALTRE SECURITY CONFIGURATION TRAMITE JAVA BEAN DI SPRING*/
 
