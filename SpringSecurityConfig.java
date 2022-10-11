@@ -14,5 +14,6 @@ public class MvcConfig implements WebMvcConfigurer {
 		registry.addViewController("/login").setViewName("login");
 		registry.addViewController("/path").setViewName("path");
 	}
+	/** QUI IMPLEMENTARE ALTRE SECURITY CONFIGURATION TRAMITE JAVA BEAN DI SPRING*/
 
 }
